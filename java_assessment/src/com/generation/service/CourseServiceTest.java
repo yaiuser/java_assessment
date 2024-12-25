@@ -13,7 +13,7 @@ class CourseServiceTest {
 
     private final CourseService service = new CourseService();
 
-    Module module = new Module("01","module name","description")
+    Module module = new Module("01","module name","description");
     Course course = new Course("tester","name",9,module);
     String courseId;
 
